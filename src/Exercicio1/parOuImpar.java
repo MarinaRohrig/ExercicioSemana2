@@ -1,8 +1,6 @@
 package Exercicio1;
 // Exercício 1 da semana 2 do Futuro Dev, esse vai receber um número e verificar se é par ou impar
 // Autor: Marina Larissa Carpes Röhrig
-
-
 import java.util.Scanner;
 
 public class parOuImpar {
