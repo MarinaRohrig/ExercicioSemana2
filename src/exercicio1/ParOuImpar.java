@@ -1,9 +1,9 @@
-package Exercicio1;
+package exercicio1;
 // Exercício 1 da semana 2 do Futuro Dev, esse vai receber um número e verificar se é par ou impar
 // Autor: Marina Larissa Carpes Röhrig
 import java.util.Scanner;
 
-public class parOuImpar {
+public class ParOuImpar {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite um número inteiro: ");
