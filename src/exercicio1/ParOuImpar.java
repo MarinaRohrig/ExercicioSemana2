@@ -16,5 +16,6 @@ public class ParOuImpar {
         } else {
             System.out.printf("O número %d é impar! ", numeroDigitado);
         }
+        scanner.close();
     }
 }

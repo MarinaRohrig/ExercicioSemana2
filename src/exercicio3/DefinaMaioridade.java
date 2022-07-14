@@ -17,6 +17,6 @@ public class DefinaMaioridade {
             System.out.printf("Você tem: %d anos e é maior de idade! \n", idadeDoUsuario);
             }
 
-
+        scanner.close();
     }
 }

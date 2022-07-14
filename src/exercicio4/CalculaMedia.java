@@ -14,18 +14,19 @@ public class CalculaMedia {
         System.out.print("***********************\n");
 
         System.out.println("Digite a sua primeira nota, por favor:");
-        primeiraNota = scanner.nextDouble();
+        primeiraNota = Double.parseDouble(scanner.nextLine());
         System.out.println("Digite a sua segunda nota, por favor:");
-        segundaNota = scanner.nextDouble();
+        segundaNota = Double.parseDouble(scanner.nextLine());
         System.out.println("Digite a sua terceira nota, por favor:");
-        terceiraNota = scanner.nextDouble();
-
+        terceiraNota = Double.parseDouble(scanner.nextLine());
+        
         System.out.println("Obrigada pelas informações!\n\n");
         media = (primeiraNota+segundaNota+terceiraNota)/3;
         System.out.print("***********************\n");
         System.out.printf("As suas notas foram:%n |%.1f| %n |%.1f| %n |%.1f| %n" +
                         " A média das suas três notas é: %n |%.1f| %n",
                         primeiraNota,segundaNota,terceiraNota,media);
+
         if (media<7){
             System.out.println("Infelizmente você foi REPROVADO, boa sorte na recuperação!");
         }else{
@@ -33,6 +34,6 @@ public class CalculaMedia {
         }
         System.out.print("***********************\n");
 
-
+        scanner.close();
     }
 }
