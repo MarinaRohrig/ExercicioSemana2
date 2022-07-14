@@ -16,13 +16,13 @@ public class CalculaIMC {
         System.out.println(" Como no exemplo: 80,654 \n Digite o seu peso,em kg, por favor:   ");
         peso = scanner.nextFloat();
 
-        // calcula o IMC e mostra as infos com 3 casas após a vírgula
+        // Calcula o IMC e mostra as infos com 3 casas após a vírgula
         System.out.printf("A sua altura é:%.3f %n",altura);
         System.out.printf("O seu peso é:%.3f %n",peso);
         float imc = peso / ( altura * altura);
         System.out.printf("O seu IMC ( peso/(altura x altura) ) é: %.3f \n",imc);
 
-        //Mostra resultado com base no ICM
+        //Mostra resultado com base no IMC
         if (imc < 18.5) {
             System.out.println("Você está abaixo do Peso Ideal.\n");
         }else if (imc < 24.9) {
