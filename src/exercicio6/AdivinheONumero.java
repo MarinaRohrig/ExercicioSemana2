@@ -19,9 +19,9 @@ public class AdivinheONumero {
         numeroDoUsuario = Integer.parseInt(scanner.nextLine());
         numeroRandom = random.nextInt(5);
         if (numeroDoUsuario == numeroRandom){
-            System.out.println("O número secreto era:"+numeroRandom+"e você acertou!");
+            System.out.println("O número secreto era: "+numeroRandom+" e você acertou!");
         }else{
-            System.out.println("O número secreto era:"+numeroRandom+" e você errou!");
+            System.out.println("O número secreto era: "+numeroRandom+" e você errou!");
         }
     }
 }
