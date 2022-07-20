@@ -9,12 +9,12 @@ public class DefinaMaioridade {
         Scanner scanner=new Scanner(System.in);
 
         System.out.println("Qual a sua idade?");
-        idadeDoUsuario= scanner.nextInt();
+        idadeDoUsuario = scanner.nextInt();
 
         if (idadeDoUsuario<18) {
-            System.out.printf("Você tem: %d anos e é menor de idade! \n", idadeDoUsuario);
+            System.out.printf("Você tem %d anos e é menor de idade! \n", idadeDoUsuario);
         }else{
-            System.out.printf("Você tem: %d anos e é maior de idade! \n", idadeDoUsuario);
+            System.out.printf("Você tem %d anos e é maior de idade! \n", idadeDoUsuario);
             }
 
         scanner.close();
